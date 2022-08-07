@@ -10,7 +10,7 @@ The process has two steps:
 1. A take home project designed to take between 1 and 2 hours.
 1. A follow-up video call reviewing your code and collaborating on additional fixes and enhancements.
 
-The purpose of step 1 is for you to get comfortable with this codebase prior to our video call. In the [challenge](#challenge) section below, we've listed some known bugs as well as potential feature enhancements. **We do not expect or want you to do all of the things listed there.**  We suggest starting with a bug fix from section 1 to get rolling and then move onto working on the full stack feature(s) from section 2 you find most interesting.
+The purpose of step 1 is for you to get comfortable with this codebase prior to our video call. In the [challenge](#challenge) section below, we've listed some known bugs as well as potential feature enhancements. **We do not expect or want you to do all of the things listed there.**  We suggest starting with a bug fix from section 1 to get rolling and then move onto working on the feature(s) from section 2 you find most interesting.
 
 We'll review your code before our video call and then on the call we'll discuss your solution and collaborate on additional fixes and features. Again, please don't spend more than 2 hours on this!
 
@@ -86,7 +86,7 @@ You may find it helpful to open two browsers or browser sessions so you can log 
 - [ ] Deleting a video does not work.
 - [ ] The edit and delete buttons on the video page are different heights
 
-## 2. Full stack Features
+## 2. Features
 - [ ] There is a commented out `imageUrl String?` field on the `Video` model. Uncomment that, run `yarn db:migrate`, and then add support for passing it to both the `createVideo` and `updateVideo` mutations. Request `imageUrl` on the `/videos` page so you can display it as the video thumbnai when it has been set
 - [ ] Add support for showing all the videos uploaded by a given user via a query param i.e. `/videos?userId=1` or on a dedicated page i.e. `/user/1`
 - [ ] Add support for showing all the videos with a given reaction via a query param i.e `/videos?reaction=Rofl` or on a dedicated page i.e. `/reaction/Rofl`
@@ -104,10 +104,10 @@ You may find it helpful to open two browsers or browser sessions so you can log 
 When you are done working on this challenge:
 1. Commit your changes and push the branch to **your fork of the repo**.
 2. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) off of `main` **in your fork of the repo**.
-3. Follow the link in the email where we sent you this challenge in order to schedule our follow up call. There will be a text field where you can share the url to the PR you just created. No worries if you want to keep the repo private on GitHub, we'll just have you add us as collaborators at the beginning of the call.
+3. Follow the link in the email where we sent you this challenge in order to schedule our follow up call. There will be a text field where you can share the url to the PR you just created. No worries if you want to keep your repo private on GitHub, we'll just have you add us as collaborators at the beginning of the call.
 
 # Commands
-Here are some common commands we've added that you may find useful
+Here are some commands you may find useful
 
 ## Run the app
 ```
