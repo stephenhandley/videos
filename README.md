@@ -75,10 +75,10 @@ yarn dev
 # Challenge
 ## 0. Sign up
 Once you run the app, start by signing up and creating a video:
-1. create an account for yourself by opening [/signup](http://localhost:8910/signup) and entering an email and password.
+1. Create an account for yourself by opening [/signup](http://localhost:8910/signup) and entering an email and password.
 2. Open [/video/new/](http:localhost:8910/video/new) and add your first video(s)
 
-You may find it helpful to open two browsers or browser sessions so you can log in as multiple users, but that isn't be required for all the features mentioned.
+You may find it helpful to open two browsers or browser sessions so you can log in as multiple users, but that isn't required for all the features mentioned.
 
 ## 1. Bug Fixes
 - [ ] The [Nav](./web/src/components/Nav/Nav.tsx) component should show the currently active link in bold but the logic is broken
