@@ -30,7 +30,6 @@
     "clean:web": "rm -rf ./web/node_modules; rm -rf ./web/dist; rm -f ./web/types/graphql.d.ts",
     "migrate": "yarn rw prisma migrate dev",
     "studio": "yarn rw prisma studio",
-    "reset": "yarn rw prisma migrate reset",
-    "console": "yarn rw console"
+    "reset": "yarn rw prisma migrate reset"
   }
 }

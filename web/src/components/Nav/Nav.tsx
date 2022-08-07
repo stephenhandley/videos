@@ -29,7 +29,7 @@ const Nav = () => {
   }
 
   return (
-    <ul className="basis-1/2">
+    <ul>
       <NavItem to={routes.videos()}>Videos</NavItem>
       <NavItem to={routes.newVideo()}>Add Video</NavItem>
       <NavItem onClick={logout}>Log out ({user.email})</NavItem>
