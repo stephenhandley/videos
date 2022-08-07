@@ -74,7 +74,7 @@ yarn dev
 
 # Challenge
 ## 0. Sign up
-Once you run the app, start by signiung up and creating a video:
+Once you run the app, start by signing up and creating a video:
 1. create an account for yourself by opening [/signup](http://localhost:8910/signup) and entering an email and password.
 2. Open [/video/new/](http:localhost:8910/video/new) and add your first video(s)
 
