@@ -53,7 +53,7 @@ yarn dev
 ## 0. Sign up
 Once you are running the app, start by signing up and creating a video:
 1. Create an account for yourself by opening [/signup](http://localhost:8910/signup) and entering an email and password.
-2. Open [/videos/new/](http:localhost:8910/videos/new) and add your first video(s)
+2. Open [/videos/new](http:localhost:8910/videos/new) and add your first video(s)
 
 You may find it helpful to open two browsers / browser sessions so you can log in as multiple users, but that isn't required for all the features mentioned.
 
