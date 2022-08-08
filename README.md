@@ -81,7 +81,7 @@ You may find it helpful to open two browsers / browser sessions so you can log i
 When you are done with your bug fix and feature, please share the code as follows:
 1. Commit your changes and push the branch to **your fork of the repo**.
 2. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) off of `main` **in your fork of the repo**.
-3. Follow the link in the email where we sent you this challenge in order to schedule our follow up call. There will be a text field where you can share the url to the PR you just created. If you want to keep your repo private on GitHub that's fine, we'll have you add us as collaborators prior to reviewing.
+3. Follow the link in the email where we sent you this challenge in order to schedule our follow up call. There will be a text field where you can share the url to the PR you just created.
 
 # Notes
 ## File Structure
