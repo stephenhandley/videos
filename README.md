@@ -17,7 +17,7 @@ Our process has two steps:
 1. A take home intro to familiarize you with the codebase
 1. A follow-up video call reviewing your code and collaborating on additional fixes and enhancements
 
-In the [Intro](#intro) section below, we've listed two known bugs and then some potential feature enhancements. **We do not expect or want you to do everything listed there.**  Start with a bug fix from section 1 to get rolling and then move on to working on the full stack feature from section 2 you find most interesting. We believe this should take between 1 and 2 hours. Please don't spend more than 2 hours on this first step. The motivation here is for you to get comfortable with the codebase prior to our call where we'll discuss your changes and collaborate on additional features.
+In the [Intro](#intro) section below, we've listed some known bugs and potential feature enhancements. **We do not expect or want you to do everything listed there.**  Start with a bug from section 1 to get going and then move on to working on the full stack feature from section 2 that you find most interesting. We believe this should take between 1 and 2 hours. Please don't spend more than 2 hours on this first step. The goal is just for you to get familiar with the codebase prior to our call where we'll discuss your changes and collaborate on additional features.
 
 # Setup
 ## Installing dependencies
@@ -59,9 +59,9 @@ You may find it helpful to open two browsers / browser sessions so you can log i
 
 ## 1. Bugs
 - [ ] The [Nav](./web/src/components/Nav/Nav.tsx) component should show the currently active link in bold but the logic is broken
-- [ ] On the [new video page](http:localhost:8910/videos/new) the `description` field isn't getting sent in the mutation
-- [ ] The delete video resolver isn't working correctly
-- [ ] The edit and delete buttons on the video page are different heights
+- [ ] On the [new video page](http:localhost:8910/videos/new) the `description` field isn't getting properly sent in the [mutation](./web/src/components/Video/NewVideo/NewVideo.tsx#L26-L28)
+- [ ] The [delete video](./api/src/services/videos/videos.ts#L89-L91) resolver isn't working correctly
+- [ ] The [edit and delete buttons](./web/src/components/Video/Video/Video.tsx#L70-L78) on the video page are different heights
 
 ## 2. Features
 - [ ] There is a commented out `imageUrl String?` field on the `Video` model. Uncomment that, run `yarn db:migrate`, and then add support for passing it to the `createVideo` and `updateVideo` mutations. Request the `imageUrl` field on the `/videos` page so you can display it as the video thumbnail when it has been set on a video
